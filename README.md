@@ -38,7 +38,7 @@ Module.onRuntimeInitialized = function() {
     Module.stringToUTF8(str, dataPtr, MAXBYTES);
 
     //call stringhash with pointer in C-code
-    return Module._stringhash9a_set(sh, dataPtr, strlen));
+    return Module._stringhash9a_set(sh, dataPtr, strlen);
   }
   
   //call function
