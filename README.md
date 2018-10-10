@@ -31,7 +31,7 @@ Module.onRuntimeInitialized = function() {
  var MAXBYTES = 64
  var dataPtr = Module._malloc(MAXBYTES);
  
- function stringhash9_set(str);
+ function stringhash9_set(str) {
     //copy string onto allocated memory buffer
     let strlen = Module.lengthBytesUTF8(str);
     strlen = (strlen <= MAXBYTES) ? strlen : MAXBYTES;
