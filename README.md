@@ -1,7 +1,8 @@
 # stringhash_wasm
 
 ## Purpose
-A WebAssembly version of the stringhash9a library from Waterslide so that it could be used withing web sites and Node.js.
+A WebAssembly version of the stringhash9a library from [Waterslide](https://github.com/waterslidekid/waterslide)
+so that it could be used withing web sites and Node.js.  This takes the stringhash9a code written in C and makes it available in a browser using a compiled WebAssembly build.
 
 ## Running
 This includes a stripped down serial version of stringhash9a hashtable that can be used for set membership operations much like a bloom filter.
