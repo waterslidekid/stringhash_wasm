@@ -1,6 +1,6 @@
 /* 
    compile using:
-   emcc stringhash9a.c -o sh9.js -s ALLOW_MEMORY_GROWTH=1 -s EXPORTED_FUNCTIONS="['_stringhash9a_create','_stringhash9a_set', '_stringhash9a_check','_stringhash9a_destroy','_main']" -s EXTRA_EXPORTED_RUNTIME_METHODS="['lengthBytesUTF8', 'stringToUTF8', 'writeArrayToMemory']" -O2
+   emcc stringhash9a.c -o sh9.js -s ALLOW_MEMORY_GROWTH=1 -s EXPORTED_FUNCTIONS="['_stringhash9a_create','_stringhash9a_set', '_stringhash9a_check','_stringhash9a_destroy','_main','_malloc']" -s EXTRA_EXPORTED_RUNTIME_METHODS="['lengthBytesUTF8', 'stringToUTF8', 'writeArrayToMemory']" -O2
 
 */
 
