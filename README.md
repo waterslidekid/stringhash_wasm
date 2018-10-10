@@ -15,6 +15,8 @@ node runsh9.js
 ```
 
 ## Modifications
+First download the [emscripten emsdk](http://kripken.github.io/emscripten-site/docs/getting_started/downloads.html).
+
 if you make changes to stringhash9a.c or stringhash9a.h, you can compile it using:
 ```console
 emcc stringhash9a.c -o sh9.js -s ALLOW_MEMORY_GROWTH=1  -s EXPORTED_FUNCTIONS="['_stringhash9a_create','_stringhash9a_set','_stringhash9a_check','_stringhash9a_destroy']" -s EXTRA_EXPORTED_RUNTIME_METHODS="['lengthBytesUTF8', 'stringToUTF8', 'writeArrayToMemory']"
