@@ -2,7 +2,7 @@
 
 ## Purpose
 A WebAssembly version of the stringhash9a library from [Waterslide](https://github.com/waterslidekid/waterslide)
-so that it could be used withing web sites and Node.js.  This repository has taken the [stringhash9a code written in C](https://github.com/waterslidekid/waterslide/blob/master/src/include/stringhash9a.h) from Waterslide, striped it down to the essential serial calls, and made it available for use in javascript using a compiled WebAssembly build.
+so that it could be used within web sites and Node.js.  This repository has taken the [stringhash9a code written in C](https://github.com/waterslidekid/waterslide/blob/master/src/include/stringhash9a.h) from Waterslide, striped it down to the essential serial calls, and made it available for use in javascript using a compiled WebAssembly build.
 
 ## Running
 [Try it](https://htmlpreview.github.io/?https://github.com/waterslidekid/stringhash_wasm/blob/master/sh9.html) in your browser.
